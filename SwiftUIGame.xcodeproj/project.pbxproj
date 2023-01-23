@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0A8F47297DE44300C4A122 /* ButtonSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A8F46297DE44300C4A122 /* ButtonSwiftUIView.swift */; };
 		EDDE01D6297BE84E009F6C4C /* SwiftUIGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDE01D5297BE84E009F6C4C /* SwiftUIGameApp.swift */; };
 		EDDE01D8297BE84E009F6C4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDE01D7297BE84E009F6C4C /* ContentView.swift */; };
 		EDDE01DA297BE84F009F6C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDE01D9297BE84F009F6C4C /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED0A8F46297DE44300C4A122 /* ButtonSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSwiftUIView.swift; sourceTree = "<group>"; };
 		EDDE01D2297BE84E009F6C4C /* SwiftUIGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDE01D5297BE84E009F6C4C /* SwiftUIGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGameApp.swift; sourceTree = "<group>"; };
 		EDDE01D7297BE84E009F6C4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,9 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				EDDE01D5297BE84E009F6C4C /* SwiftUIGameApp.swift */,
-				EDDE0203297DC7B6009F6C4C /* ViewController.swift */,
 				EDDE01D7297BE84E009F6C4C /* ContentView.swift */,
+				ED0A8F46297DE44300C4A122 /* ButtonSwiftUIView.swift */,
 				EDDE0205297DC7C1009F6C4C /* Main.storyboard */,
+				EDDE0203297DC7B6009F6C4C /* ViewController.swift */,
 				EDDE01D9297BE84F009F6C4C /* Assets.xcassets */,
 				EDDE01DB297BE84F009F6C4C /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0A8F47297DE44300C4A122 /* ButtonSwiftUIView.swift in Sources */,
 				EDDE0204297DC7B6009F6C4C /* ViewController.swift in Sources */,
 				EDDE01D8297BE84E009F6C4C /* ContentView.swift in Sources */,
 				EDDE01D6297BE84E009F6C4C /* SwiftUIGameApp.swift in Sources */,
